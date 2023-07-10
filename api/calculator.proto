@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "github.com/radu2020/lovoo/api";
+
+package calculator;
+
+// The calculator service definition.
+service Calculator {
+  // Sends a compute request
+  rpc Compute(ComputeRequest) returns (ComputeResponse) {}
+}
+
+// The request message containing the computation to be performed on the server.
+message ComputeRequest {
+  int32 operand_a = 1;
+  int32 operand_b = 2;
+  string operator = 3;
+}
+
+// The response message containing the computation result
+message ComputeResponse {
+  int32 result = 1;
+}
