@@ -29,7 +29,8 @@ clean:
 	rm ${CLIENT_BINARY_NAME}
 	rm ${SERVER_BINARY_NAME}
 
-# run-example starts the grpc server, sends an example client request and outputs the result
+# run-example starts the grpc server, sends an example client request and outputs the result.
+# How to run: `$ make -j2 run-example`
 .PHONY: run-example
 run-example: run-server run-client
 
