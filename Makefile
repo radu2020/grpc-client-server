@@ -44,9 +44,9 @@ run-client:
 	@sleep 5
 	@go run cmd/calculator_client/calculator_client.go -a 20 -b 4 divide
 
-# run-api generates the api files
-.PHONY: run-api
-run-api:
+# generate-api generates the proto files
+.PHONY: generate-api
+generate-api:
 	protoc --go_out=. --go_opt=paths=source_relative \
         --go-grpc_out=. --go-grpc_opt=paths=source_relative \
         api/calculator.proto

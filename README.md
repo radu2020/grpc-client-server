@@ -32,7 +32,7 @@ $ export PATH="$PATH:$(go env GOPATH)/bin"
 >All `make` commands should be run from the project root directory.
 
 ```shell
-$ make run-api
+$ make generate-api
 ```
 
 ## Usage
