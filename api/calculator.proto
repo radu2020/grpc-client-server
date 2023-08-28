@@ -14,7 +14,7 @@ service Calculator {
 message ComputeRequest {
   int32 operand_a = 1;
   int32 operand_b = 2;
-  string operator = 3;
+  string operator = 3; // TODO: change operator to enum
 }
 
 // The response message containing the computation result
