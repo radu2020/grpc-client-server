@@ -1,4 +1,4 @@
-module github.com/radu2020/lovoo
+module github.com/radu2020/grpc-client-server
 
 go 1.20
 

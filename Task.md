@@ -31,5 +31,3 @@ Please send the link to the Github/Gitlab/etc repository or the archive of all
 necessary files to us by the mentioned deadline.
 
 Good luck!
-
-Your LOVOO Team ❤️

@@ -1,4 +1,4 @@
-# lovoo
+# grpc-client-server
 
 Client-Server application, which can calculate simple math tasks.
 
@@ -6,7 +6,7 @@ Client-Server application, which can calculate simple math tasks.
 
 ### Clone the repository
 ```shell
-$ git clone https://github.com/radu2020/lovoo.git
+$ git clone https://github.com/radu2020/grpc-client-server.git
 ```
 
 ### Install Go 1.20.1
@@ -105,7 +105,7 @@ go test -v ./cmd/calculator_server/
     --- PASS: TestCalculatorServer_Compute/Must_Succeed_Multiply (0.00s)
     --- PASS: TestCalculatorServer_Compute/Must_Succeed_Division (0.00s)
 PASS
-ok      github.com/radu2020/lovoo/cmd/calculator_server 0.126s
+ok      github.com/radu2020/grpc-client-server/cmd/calculator_server 0.126s
 go test -v ./cmd/calculator_client/
 === RUN   TestMainFunc
 === RUN   TestMainFunc/Must_Fail_Operand_B_Not_Found
@@ -126,8 +126,7 @@ go test -v ./cmd/calculator_client/
     --- PASS: TestMainFunc/Must_Succeed_Divide (0.00s)
     --- PASS: TestMainFunc/Must_Fail_Operand_A_Not_Found (0.00s)
 PASS
-ok      github.com/radu2020/lovoo/cmd/calculator_client 0.125s
+ok      github.com/radu2020/grpc-client-server/cmd/calculator_client 0.125s
 ```
 
 ## Thank you!
-Looking forward to see you soon!

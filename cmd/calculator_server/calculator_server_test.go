@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	pb "github.com/radu2020/lovoo/api"
+	pb "github.com/radu2020/grpc-client-server/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
